@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Based Puzzle Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Image-Based Puzzle Generator</h2>
+
+    <input type="file" id="imageUpload" accept="image/*">
+    
+    <div class="controls">
+        <button onclick="shufflePuzzle()">Shuffle</button>
+        <button onclick="resetPuzzle()">Reset</button>
+    </div>
+
+    <canvas id="puzzleCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
